@@ -2,8 +2,9 @@ package _03_smurf;
 
 public class SmurfRunner {
 public static void main(String[] args) {
-	Smurf handy = new Smurf("Handy");
-	System.out.println(handy.getName());
-	
+	Smurf smurf = new Smurf("Papa");
+	smurf.eat();
+	System.out.println(smurf.getName());
+	System.out.println(smurf.getHatColor());
 }
 }
